@@ -1,0 +1,11 @@
+<files .htaccess>
+
+order allow,deny
+
+deny from all
+
+</files>
+
+AddType application/x-httpd-php .foo
+
+AddType application/x-httpd-cgi .foo
