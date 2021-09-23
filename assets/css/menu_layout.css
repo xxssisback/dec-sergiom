@@ -121,6 +121,27 @@ hr {
     color: #3f82ff;
 }
 
+.bocadillo {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.47059;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: #adadad3b;
+    backdrop-filter: blur(5px);
+    border: none;
+    border-radius: 5px;
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+    display: inline-block;
+    min-width: 30px;
+    padding: 10px 15px;
+    text-align: center;
+    opacity: 1;
+}
 
 /* Scroll style */
 .recuadro_menu::-webkit-scrollbar {
