@@ -29,41 +29,80 @@
             <span class="nombre">Preguntes GitHub Pages</span>
             <div class="links">
                 <div class="activitat_layout">
-                    <div class="bocadillo">
-                        <!-- Pregunta 1 -->
-                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
-                        <p>"</p>
-                        <br>
-                        <!-- Pregunta 1 -->
-                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
-                        <p>"</p>
-                        <br>
-                        <!-- Pregunta 1 -->
-                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
-                        <p>"</p>
-                        <br>
-                        <!-- Pregunta 1 -->
-                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
-                        <p>"</p>
-                        <br>
-                        <!-- Pregunta 1 -->
-                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
-                        <p>"</p>
-                        <br>
-                        <!-- Pregunta 1 -->
-                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
-                        <p>"</p>
-                        <br>
-                        <!-- Pregunta 1 -->
-                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
-                        <p>"</p>
-                        <br>
 
+                    <!-- Pregunta 1 -->
+                    <div class="bocadillo">
+                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>1. Què és Vanilla Javascript?</u></p>
+                        <p>Se conoce como cuando se usa el lenguaje JavaScript sin ninguna librería o frameworl, es decir, puro o a pelo.</p>
                     </div>
+                    <hr>
+
+                    <!-- Pregunta 2 -->
+                    <div class="bocadillo">
+                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>2. Diferència els ECMA Script que pertanyen a Javascript i a Javascript Modern</u></p>
+                        <p>Los ECMA de JavaScript antiguos son del ES1 a ES5 y los del JavaScript moderno son del ES6 a ES12.</p>
+                    </div>
+                    <hr>
+
+                    <!-- Pregunta 3 -->
+                    <div class="bocadillo">
+                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>3. Qui va crear Javascript? De quina empresa era?</u></p>
+                        <p>JavaScript fue creado por el programador Brendan Eich el año 1997, fué de Netscape Communications</p>
+                    </div>
+                    <hr>
+                    <!-- Pregunta 4 -->
+                    <div class="bocadillo">
+                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>4. Quina empresa hi ha actualment darrera de Javascript?</u></p>
+                        <p>Actualmente JavaScript pertenece a la empresa Oracle.</p>
+                    </div>
+                    <hr>
+    
+                    <!-- Pregunta 5 -->
+                    <div class="bocadillo">
+                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>5. Què és una arrow function? A quin ES apareix (quin any).</u></p>
+                        <p>Las funciones flecha o arrow funtions son funciones anónimas con una sintaxis más compacta que no vinculan su propio this o que no se pueden usar como constructores. Está funcion apareció en el ES6.<br>
+                           <br>
+                           a => a + 100;
+                        </p>
+                    </div>
+                    <hr>
+
+                    <!-- Pregunta 6 -->
+                    <div class="bocadillo">
+                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>6. Què és un callback? Posa un exemple.</u></p>
+                        <p>Es una función que se pasa a otra como un argumento, que luego se invoca dentro de la función externa pra completar algún tipo de rutina o acción. </p>
+                        <br>
+                        <div class="bocadillo" onmouseover="hoverOn(this)" onmouseout="hoverOff(this)" style="width: 340px;">Pasa el cursor por encima</div>
+                    </div>
+                    <hr>
+
+                    <!-- Pregunta 7 -->
+                    <div class="bocadillo">
+                        <p align="left" style="font-size: 14px; color: rgb(192, 192, 192);"><u>7. Què és una promesa en Javascript (promise). Posa un exemple. Explica també la diferència entre la programació síncrona i la programació asíncrona, posa un exemple.</u></p>
+                        <p>
+                            - Una promesa o promise, es un objeto que representa la eventual finalización, o fallo de una operación asíncrona, y su valor resultante.
+
+
+
+                        </p>
+                    </div>                  
                 </div>
-                <hr>
-                <button title="Torna a la pàgina interior" class="button-white button-block as-tradeupinline-button" type="button" onclick="history.go(-1);"><span>Tornar</span></button>
             </div>
+            <hr>
+            <button title="Torna a la pàgina interior" class="button-white button-block as-tradeupinline-button" type="button" onclick="history.go(-1);"><span>Tornar</span></button>
         </div>
+    
+    
+    <!-- Script -->
+    <script>
+        function hoverOn(obj) {
+          obj.innerHTML = "Hola cara de bola :3"
+        }
+        
+        function hoverOff(obj) {
+          obj.innerHTML = "Pasa el cursor por encima"
+        }
+    </script>
+    
     </body>
 </html>
